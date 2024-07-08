@@ -10,4 +10,5 @@ export default defineConfig({
       { find: '@shared', replacement: '/src/shared/' },
     ],
   },
+  base: 'mindbox_task'
 });
