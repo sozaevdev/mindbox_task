@@ -1,0 +1,21 @@
+.AddTodo {
+  width: 410px;
+}
+
+.inputWrapper {
+  position: relative;
+}
+
+.iconWrapper {
+  cursor: pointer;
+  position: absolute;
+  transform: translate(100%, 50%);
+}
+
+.iconArrow {
+  transform: rotate(-180deg);
+}
+
+.activeiconArrow {
+  transform: rotate(0deg);
+}

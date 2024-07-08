@@ -1,0 +1,16 @@
+.TaskCard {
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+  height: 100%;
+  width: 100%;
+  border-bottom: 1px solid var(--input-border-color);
+  color: var(--secondary-color);
+  background: var(--bg-task-item);
+  height: 40px;
+}
+
+.taskCompleted {
+  color: var(--completed-task-color);
+  text-decoration: line-through;
+}

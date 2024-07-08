@@ -1,0 +1,20 @@
+.Tabs {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+}
+
+.tab {
+  transition: 0.3s;
+  &:hover {
+    color: var(--primary-color);
+  }
+}
+
+.activeTab {
+  padding: 3px;
+  border-radius: 5px;
+  border: 1px solid var(--primary-color);
+  color: var(--primary-color);
+}
